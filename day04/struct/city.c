@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+struct City {
+  int hab;
+  int km;
+};
+
+void show(City) {
+  struct City city;
+  city.hab = 1000;
+  city.km = 5;
+  printf("La taille de la ville est %d km\n", city.km);
+}
+
+int main(void) {
+  struct City city;
+
+  show(city);
+  //printf(km);
+  return 0;
+}
