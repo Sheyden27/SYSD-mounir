@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int* tri(int array[], int size) {
+int tri(int array[], int size) {
   int c;
   for (int i = 0, n = size; i < size; i++, n--) {
     //On regarde si le caractère actuel est plus grand que le prochain
