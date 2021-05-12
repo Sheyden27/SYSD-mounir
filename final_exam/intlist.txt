@@ -1,3 +1,7 @@
 Le programme fait une boucle infinie car la valeur du dernier élément de la liste
 chainée pointe sur un élément précédent.
 Ici en l'occurence : la valeur du "next" de l'entier 41 pointe vers l'élément "12"
+Pour remédier à ce problème de boucle, on peut les détecter en créant un tableau de valeurs,
+et en ajoutant la valeur du head dans ce tableau.
+Ensuite, on fait un tour du tableau à chaque fois qu'on veut rajouter une valeur, et si
+on trouve que la valeur est déjà présente dans le tableau, on sait qu'il y a une boucle.
