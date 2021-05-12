@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int my_strlen(char *str);
+
+void my_toUpper(char *str) {
+  int end = my_strlen(str);
+  char c;
+  
+  for (int i = 0; i < end; i++) {
+    if (str[i] >= 'a' && str[i] <= 'z') {
+      str[i] -= 32;
+    }
+  }
+  printf(str);
+}
+
+int main(void) {
+  char *str = "Hello";
+
+  printf("%s -> ", str);
+  my_toUpper(str);
+  printf("\n");
+  return 0;
+}

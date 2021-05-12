@@ -8,7 +8,7 @@ int my_strlen(char* str) {
   return nb;
 }
 
-int main(void) {
+int oui(void) {
   char *str = "Hello";
   printf("Taille de '%s': %d\n", str, my_strlen(str));
 }
