@@ -1,0 +1,3 @@
+Le programme fait une boucle infinie car la valeur du dernier élément de la liste
+chainée pointe sur un élément précédent.
+Ici en l'occurence : la valeur du "next" de l'entier 41 pointe vers l'élément "12"
